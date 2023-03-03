@@ -130,9 +130,22 @@ img {
 
 /* Tablet */
 
-
-@media screen and (min-width: 767px) {
+/*width <= 767px*/
+@media screen and (max-width: 767px) {
     .container{
         width: 100%;
     }
 }
+
+
+ @media screen and (max-width: 478px) {
+   
+   .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+
+}  
